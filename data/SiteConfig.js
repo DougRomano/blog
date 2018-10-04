@@ -1,6 +1,6 @@
 module.exports = {
-  siteTitle: "DougRomanoIO", // Site title.
-  siteTitleShort: "RomanoIO", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
+  siteTitle: "RomanoIO", // Site title.
+  siteTitleShort: "Doug Romano", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "Doug Romano blog", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
   siteUrl: "https://romano.io", // Domain of your website without pathPrefix.
@@ -8,9 +8,9 @@ module.exports = {
   fixedFooter: false, // Whether the footer component is fixed, i.e. always visible
   siteDescription: "Place to put technical thoughts and ideas", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
-  siteFBAppID: "1825356251115265", // FB Application ID for using app insights
-  siteGATrackingID: "UA-47311644-4", // Tracking code ID for google analytics.
-  disqusShortname: "https-romano-io.disqus.com", // Disqus shortname.
+  siteFBAppID: "", // FB Application ID for using app insights
+  siteGATrackingID: "UA-62909729-1", // Tracking code ID for google analytics.
+  disqusShortname: "romanoio", // Disqus shortname.
   postDefaultCategoryID: "Tech", // Default category for posts.
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
   dateFormat: "DD/MM/YYYY", // Date format for display.
@@ -38,5 +38,5 @@ module.exports = {
       iconClassName: "fa fa-envelope"
     }
   ],
-  copyright: "Copyright © 2018. Doug Romano" // Copyright string for the footer of the website and RSS feed.
+  copyright: "Copyright © 2017. Doug Romano" // Copyright string for the footer of the website and RSS feed.
 };
